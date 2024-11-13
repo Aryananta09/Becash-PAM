@@ -26,7 +26,7 @@
             android:name=".TransaksiProduct"
             android:exported="false" />
         <activity
-            android:name=".TransaksiBid"
+            android:name=".Transaksi"
             android:exported="false" />
         <activity
             android:name=".PostIklan"

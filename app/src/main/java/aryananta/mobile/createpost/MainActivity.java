@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 if (item.getItemId() == R.id.navigation_auctions) {
 
                     // Pindah ke Activity Notifications
-                    Intent notificationsIntent = new Intent(MainActivity.this, TransaksiProduct.class);
+                    Intent notificationsIntent = new Intent(MainActivity.this, Transaksi.class);
                     startActivity(notificationsIntent);
                     return true;
                 }
